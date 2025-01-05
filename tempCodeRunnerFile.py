@@ -1,9 +1,12 @@
-#method 1 of find total score
-# total_score=sum(game_score)
-# print(total_score)
+def life_in_weeks():
+    # Get the current age from the user
+    current_age = int(input("What is your current age? "))
 
-# #method 2 of find the total score
-# sum=0
-# for score in game_score:
-#     sum+=score
-# print(sum)
+    # Calculate the remaining time
+    max_age = 90
+    years_left = max_age - current_age
+    weeks_left = years_left * 52  # 52 weeks in a year
+
+    # Print the result using f-strings
+    print(f"You have {weeks_left} weeks left.")
+life_in_weeks()

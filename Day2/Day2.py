@@ -28,7 +28,7 @@ print(float("123") + float("456"))
 print(bool("123") + bool("456"))
 
 # Exercise 1
-print("Number of letters in your name :" + len(input("enter your name"))) #Wrong format...
+# print("Number of letters in your name :" + len(input("enter your name"))) #Wrong format...
 
 name_of_user = input("Enter the name :")
 length_of_name = len(name_of_user)
